@@ -87,7 +87,7 @@ st.markdown("""
     /* 6. Ocultar menu padrão do Streamlit (hambúrguer e rodapé) */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    header {background-color: transparent !important;}
 
     /* 7. Mantém as animações do título e do certificado */
     @keyframes respiracao {
